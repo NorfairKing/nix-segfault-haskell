@@ -1,9 +1,9 @@
 # segfault
 
-Make a giant file:
+Make a giant file (you may have to fiddle with the size to use, based on your system):
 
 ```
-head -c 500MiB /dev/urandom > myfile.png
+head -c 10MiB /dev/urandom > myfile.png
 ```
 
 Run nix-build
